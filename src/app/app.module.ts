@@ -4,11 +4,13 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LateralMenuComponent } from './lateralMenu/lateralMenu.component';
+import { IconoComponent } from './lateralMenu/icono/icono.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LateralMenuComponent
+    LateralMenuComponent,
+    IconoComponent
   ],
   imports: [
     BrowserModule,
