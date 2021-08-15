@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LateralMenuComponent } from './lateralMenu/lateralMenu.component';
 import { IconoComponent } from './lateralMenu/icono/icono.component';
 import { SectionComponent } from './section/section.component';
-import { PersonalInfoSectionComponent } from './section/sections/personalInfoSection.component';
+import { PersonalInfoSectionComponent } from './section/sections/personal-info-section/personalInfoSection.component';
 
 @NgModule({
   declarations: [

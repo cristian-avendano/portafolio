@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PersonalInfoSectionComponent } from './section/sections/personalInfoSection.component';
+import { PersonalInfoSectionComponent } from './section/sections/personal-info-section/personalInfoSection.component';
 
 
 const routes: Routes = [
