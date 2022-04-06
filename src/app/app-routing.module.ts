@@ -1,10 +1,14 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PersonalInfoSectionComponent } from './section/sections/personalInfoSection.component';
+import { HomeComponent } from './section/sections/home/home';
+import { PersonalInfoSectionComponent } from './section/sections/personal-info-section/personalInfoSection.component';
+import { StudiesComponent } from './section/sections/studies/studies';
 
 
 const routes: Routes = [
-  {path:'home', component:PersonalInfoSectionComponent}
+  {path:'', component:HomeComponent},
+  {path:'home', component:PersonalInfoSectionComponent},
+  {path:'studies', component:StudiesComponent}
 ];
 
 @NgModule({
